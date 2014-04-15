@@ -8,7 +8,7 @@ public class Settings {
 	/********ALL EDITABLE SETTINGS ARE HERE *****/
 
 	//Name of radio station
-	private String radioName = "AIR 107.2";
+	private final String radioName = "AIR 107.2";
 
 	//URL of the radio stream
 	private String radioStreamURL = "http://stream.aironair.co.uk:8002";
