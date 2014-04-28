@@ -204,6 +204,14 @@ public class MainActivity extends Activity {
 		//TODO
 	}
 	
+	
+	/**
+	 * Launches Play store to rate app
+	 */
+	public void lauchRating(){
+		//TODO
+	}
+	
 
 	/**
 	 * Load image from external source Asyncrons
