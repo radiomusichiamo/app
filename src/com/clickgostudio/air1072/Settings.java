@@ -12,6 +12,9 @@ public class Settings {
 
 	//URL of the radio stream
 	private String radioStreamURL = "http://stream.aironair.co.uk:8002";
+	
+	//URL of webcam (or YouTube link maybe) 
+	private String radioWebcamURL = "http://ustream.com/";
 
 	//URL for the advertising / message banner. For no banner leave blank, i.e: ""
 	private String adBannerURL = "http://www.aironair.co.uk/wp-content/uploads/2013/09/App-Banner.png";
@@ -49,7 +52,11 @@ public class Settings {
 	public String getRadioStreamURL(){
 		return radioStreamURL;
 	}
-
+	
+	public String getRadioWebcamURL(){
+		return radioWebcamURL;
+	}
+	
 	public String getAdBannerURL(){
 		return adBannerURL;
 	}
