@@ -55,6 +55,9 @@ public class MainActivity extends Activity {
 	}
 
 	
+	/**
+	 * Sets up menu options
+	 */
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		getMenuInflater().inflate(R.menu.main_menu, menu);
