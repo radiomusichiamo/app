@@ -196,6 +196,14 @@ public class MainActivity extends Activity {
 		startActivity (browserIntent);
 	}
 	
+	
+	/**
+	 * Lauches send Tweet function
+	 */
+	public void launchTweet(){
+		//TODO
+	}
+	
 
 	/**
 	 * Load image from external source Asyncrons
@@ -224,7 +232,6 @@ public class MainActivity extends Activity {
 			adImage.setImageBitmap(result);
 		}
 	}
-
 
 }
 
