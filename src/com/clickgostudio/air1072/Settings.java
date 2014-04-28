@@ -37,6 +37,9 @@ public class Settings {
 	//TOAST notification when play button is pressed
 	private String playNotificationMessage = "Starting AIR 107.2";
 	
+	//Play store URL (not known until published
+	private String playStoreURL = "http://play.google.com/";
+	
 	//Enable console output for streaming info (Buffering etc) - Disable = false
 	private boolean allowConsole = true;
 	
@@ -86,6 +89,10 @@ public class Settings {
 		return playNotificationMessage;
 	}
 
+	public String getPlayStoreURL(){
+		return playStoreURL;
+	}
+	
 	public boolean getAllowConsole(){
 		return allowConsole;
 	}
