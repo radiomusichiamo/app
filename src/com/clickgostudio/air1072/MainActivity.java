@@ -6,7 +6,9 @@
 package com.clickgostudio.air1072;
 
 import java.io.InputStream;
+
 import com.clickgostudio.air1072.R;
+
 import android.media.AudioManager;
 import android.net.Uri;
 import android.os.AsyncTask;
@@ -17,6 +19,7 @@ import android.content.res.Configuration;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.util.Log;
+import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -51,6 +54,13 @@ public class MainActivity extends Activity {
 
 	}
 
+	
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		getMenuInflater().inflate(R.menu.main_menu, menu);
+		return true;
+	}
+	
 
 	/**
 	 * Listens for contact button clicks
