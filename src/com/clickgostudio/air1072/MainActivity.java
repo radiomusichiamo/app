@@ -20,6 +20,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.util.Log;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -62,6 +63,22 @@ public class MainActivity extends Activity {
 	public boolean onCreateOptionsMenu(Menu menu) {
 		getMenuInflater().inflate(R.menu.main_menu, menu);
 		return true;
+	}
+	
+	
+	/**
+	 * Listen for menu option selection and carry out event
+	 */
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		switch (item.getItemId()) {
+
+		case R.id.watch_webcam: {
+			launchWebcam();
+			break;
+		}
+		}
+		return super.onOptionsItemSelected(item);
 	}
 	
 
@@ -170,6 +187,15 @@ public class MainActivity extends Activity {
 		}
 	}
 
+	
+	/**
+	 * Launches webcam from external URL
+	 */
+	public void launchWebcam(){
+		Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(settings.getRadioWebcamURL()));
+		startActivity (browserIntent);
+	}
+	
 
 	/**
 	 * Load image from external source Asyncrons
