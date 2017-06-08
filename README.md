@@ -1,6 +1,9 @@
 Basic Radio Streaming for Android
 =================
 
+Please note this project is no longer maintained and I cannot guarentee the methods used for streaming are still effective. I will however leave the repo live for the forseable future for reference. 
+=============
+
 Android Radio streaming app
 
  - Basic radio streaming with play and stop buttons
@@ -9,19 +12,5 @@ Android Radio streaming app
  - Display notification when the app is streaming
  - 'Message banner' loaded from external URL for ads or notifications. 
  - Easy to set up for off-the-shelf radio player, just change images and details in Settings class.
- 
-A working and available to download version of this code can be found on the [Play store](https://play.google.com/store/apps/details?id=com.clickgostudio.air1072).
- 
- 
- ![Screen shot](http://i.imgur.com/yzM1ZgT.png)
- 
- TODO 
----------------
- - Add now playing track information 
- - Combine play and stop button
-
 
 Soruce code is available under MIT licence. 
-<img src="http://i.imgur.com/HlDXQUH.png" alt="MIT" style="width: 50px;"/>
-
- 
