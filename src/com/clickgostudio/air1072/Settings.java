@@ -2,16 +2,16 @@
  * Settings for app including URLS and other features. 
  */
 
-package com.clickgostudio.air1072;
+package it.radiomusichiamo.app;
 
 public class Settings {
 	/********ALL EDITABLE SETTINGS ARE HERE *****/
 
 	//Name of radio station
-	private final String radioName = "AIR 107.2";
+	private final String radioName = "RadioMusischiamo";
 
 	//URL of the radio stream
-	private String radioStreamURL = "http://stream.aironair.co.uk:8002";
+	private String radioStreamURL = "http://listen.radionomy.com/RadioMusichiamo1";
 	
 	//URL of webcam (or YouTube link maybe) 
 	private String radioWebcamURL = "http://ustream.com/";
@@ -20,22 +20,22 @@ public class Settings {
 	private String adBannerURL = "http://www.aironair.co.uk/wp-content/uploads/2013/09/App-Banner.png";
 	
 	//Contact button email address
-	private String emailAddress = "studio@aironair.co.uk";
+	private String emailAddress = "diretta@radiomusichiamo.ml";
 	
 	//Contact button phone number
-	private String phoneNumber = "01305836040";
+	private String phoneNumber = "#";
 
 	//Contact button website URL
-	private String websiteURL = "http://aironair.co.uk";
+	private String websiteURL = "http://radiomusichiamo.ml";
 	
 	//Contact button SMS number
 	private int smsNumber = 66777;
 	
 	//Message to be shown in notification center whilst playing
-	private String mainNotificationMessage = "You're listening to AIR";
+	private String mainNotificationMessage = "Stai ascoltando RadioMuschiamo";
 
 	//TOAST notification when play button is pressed
-	private String playNotificationMessage = "Starting AIR 107.2";
+	private String playNotificationMessage = "Caricamento in corso...";
 	
 	//Play store URL (not known until published
 	private String playStoreURL = "http://play.google.com/";
